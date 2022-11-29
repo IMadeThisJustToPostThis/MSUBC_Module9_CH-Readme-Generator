@@ -3,8 +3,8 @@
   ## Description
   generates readmes
   ## License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
-This application is distributed under the [MIT](https://opensource.org/licenses/MIT) license.
+  [![License: No License](https://img.shields.io/badge/License--lightgrey.svg)](https://opensource.org/licenses/)
+This application is not currently under any license agreement.
   ## Table of Contents
   - [License](#License)
   - [Usage](#Usage)
@@ -20,6 +20,6 @@ This application is distributed under the [MIT](https://opensource.org/licenses/
   ## Contributing
   no guidelines
   ## Questions
-  Github:<https://github.com/IMadeThisJustToPostThis>
+  Github:<https://github.com/MadeThisJustToPostThis>
   
 Email: mat
