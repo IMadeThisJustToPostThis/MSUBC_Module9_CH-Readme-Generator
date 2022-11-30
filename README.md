@@ -1,6 +1,7 @@
   # MSUBC_Module9_CH Readme Generator by Mateusz Zielinski
   ## Description
   This program generates a standardized README.md file based on user-inputted data
+  ![Alt text](EXAMPLE.png)
   ## License
   [![License: No License](https://img.shields.io/badge/License--lightgrey.svg)](https://opensource.org/licenses/)
   This application is not currently under any license agreement.
@@ -29,4 +30,5 @@
   
   Email: zielinm2@mail.lcc.edu
   ## Video
+  click on the image below to view the video
   [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lqe-ps8SzqE/0.jpg)](https://www.youtube.com/watch?v=lqe-ps8SzqE)
