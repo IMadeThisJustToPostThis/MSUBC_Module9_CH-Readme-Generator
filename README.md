@@ -11,12 +11,12 @@
   - [Installation](#Installation)
   - [Testing](#Testing)
   - [Contributing](#Contributing)
-  ## Installation
+  ## Usage
   - open the project in vscode or another compatible editor 
   - right click on 'index.js' and select 'open in integrated terminal' 
   - in the command line type in 'node index.js' - answer all of the prompts 
   - once all prompts have been answered, the generated README should show up in the 'dist' folder
-  ## Usage
+  ## Installation
   - open gitbash 
   - navigate to the desired parent folder 
   - type into gitbash 'git clone https://github.com/IMadeThisJustToPostThis/MSUBC_Module9_CH-Readme-Generator.git'
