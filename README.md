@@ -32,4 +32,5 @@
   Email: zielinm2@mail.lcc.edu
   ## Video
   click on the image below to view the video
+  
   [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lqe-ps8SzqE/0.jpg)](https://www.youtube.com/watch?v=lqe-ps8SzqE)
