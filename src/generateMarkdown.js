@@ -56,7 +56,7 @@ function generateMarkdown(readmeInput) {
   ${readmeInput.contributing}
   ## Questions
   Github:<https://github.com/${readmeInput.user}>
-  Email: ${readmeInput.email}
+  \n  Email: ${readmeInput.email}
   `;
   
   return generatedMarkdown; // return string literal with finalized markdown
