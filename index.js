@@ -1,8 +1,8 @@
 // import packages
 const fs = require('fs'); // fs to read and write external files
 const inquirer = require('inquirer'); // inquirer to provide console-based prompts for the user
-const generateMarkdown = require('./generateMarkdown.js') // import our custom package that generates a markdown based on data fed to it
-const licenseData = require('./licenseDatabase.json').licenseInfo; // import our custom json that contains all of the license data required for the readme
+const generateMarkdown = require('./src/generateMarkdown.js') // import our custom package that generates a markdown based on data fed to it
+const licenseData = require('./lib/licenseDatabase.json').licenseInfo; // import our custom json with its licenseInfo field to use in one of our prompts
 
 // array of questions for user input
 const questions = [
@@ -67,7 +67,7 @@ function init() {
     inquirer
         .prompt(questions) // prompt the user our array of questions
         .then(readmeData => generateMarkdown(readmeData)/*console.log(readmeData)*/) // feed that data to our generateMarkdown function imported from our generatemarkdown package
-        .then(markdownData => writeToFile('README.md', markdownData)/*console.log(markdownData)*/) // write the returned markdown to a README.md file
+        .then(markdownData => writeToFile('./dist/README.md', markdownData)/*console.log(markdownData)*/) // write the returned markdown to a README.md file
 }
 
 // initialize the app

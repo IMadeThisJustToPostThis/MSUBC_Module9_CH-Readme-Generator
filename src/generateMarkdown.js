@@ -1,5 +1,5 @@
 // imports
-const licenseData = require('./licenseDatabase.json'); // import our json file containing the license data
+const licenseData = require('../lib/licenseDatabase.json'); // import our json file containing the license data
 
 // function that either returns the license link or an empty string
 function renderLicenseLink(licenseInput) {
@@ -32,9 +32,7 @@ function generateMarkdown(readmeInput) {
   const licenseInformation = licenseData.licenseInfo.find(
     choiceData => choiceData.name === readmeInput.license); // locate the appropriate license type by comparing each license type in the json by name
 
-  //console.log(licenseInformation);
-
-  // return string literal with generated markdown
+  // create string literal with generated markdown
   // when renderLicenseSection is called, it passes the appropriate licenses data to the chain of sub-functions
   const generatedMarkdown = `
   # ${readmeInput.title}
@@ -60,8 +58,8 @@ function generateMarkdown(readmeInput) {
   Github:<https://github.com/${readmeInput.user}>
   \nEmail: ${readmeInput.email}
   `;
-
-  return generatedMarkdown;
+  
+  return generatedMarkdown; // return string literal with finalized markdown
 }
 
 // test data and function call for testing
@@ -95,3 +93,8 @@ generateMarkdown(testData2);
 
 // export generateMarkdown function
 module.exports = generateMarkdown;
+
+// TODO:
+// change markdown layout
+// generate readme for project
+// make video of program in action
