@@ -21,7 +21,7 @@ function renderLicenseBadge(licenseInput) {
 function renderLicenseSection(licenseInput) {
   if (!licenseInput) return ''; // if there is no license, return empty string
   const licenseDescriptor = licenseInput.default ? `\n${licenseInput.info}` : // if licenseInput.default is true, set to licenseinput.info (because that means the 'no-license' license was inputted)
-    `\nThis application is distributed under the [${licenseInput.name}](${renderLicenseLink(licenseInput)}) license.` // if licenseInput.default doesn't exist, generate a new license info field
+    `\n  This application is distributed under the [${licenseInput.name}](${renderLicenseLink(licenseInput)}) license.` // if licenseInput.default doesn't exist, generate a new license info field
 
   const finalLicenseInfo = renderLicenseBadge(licenseInput) + licenseDescriptor; // combine the license badge and license descriptor into one section of information
   return finalLicenseInfo; // return combined section
@@ -56,7 +56,7 @@ function generateMarkdown(readmeInput) {
   ${readmeInput.contributing}
   ## Questions
   Github:<https://github.com/${readmeInput.user}>
-  \nEmail: ${readmeInput.email}
+  Email: ${readmeInput.email}
   `;
   
   return generatedMarkdown; // return string literal with finalized markdown
@@ -95,6 +95,5 @@ generateMarkdown(testData2);
 module.exports = generateMarkdown;
 
 // TODO:
-// change markdown layout
 // generate readme for project
 // make video of program in action
