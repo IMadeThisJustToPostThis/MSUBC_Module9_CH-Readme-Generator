@@ -10,6 +10,7 @@
   - [Installation](#Installation)
   - [Testing](#Testing)
   - [Contributing](#Contributing)
+  - [Video](#Video)
   ## Usage
   - open the project in vscode or another compatible editor
   - right click on 'index.js' and select 'open in integrated terminal'
@@ -27,3 +28,5 @@
   Github:<https://github.com/IMadeThisJustToPostThis>
   
   Email: zielinm2@mail.lcc.edu
+  ## Video
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lqe-ps8SzqE/0.jpg)](https://www.youtube.com/watch?v=lqe-ps8SzqE)

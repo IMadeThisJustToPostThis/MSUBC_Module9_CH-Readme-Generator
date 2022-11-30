@@ -93,7 +93,3 @@ generateMarkdown(testData2);
 
 // export generateMarkdown function
 module.exports = generateMarkdown;
-
-// TODO:
-// generate readme for project
-// make video of program in action

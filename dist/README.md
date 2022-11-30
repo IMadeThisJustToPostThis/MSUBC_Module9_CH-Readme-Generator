@@ -1,10 +1,10 @@
 
-  # MSUBC_Module9_CH Readme Generator by Mateusz Zielinski
+  # read
   ## Description
-  This program generates a standardized README.md file based on user-inputted data
+  super cool
   ## License
-  [![License: No License](https://img.shields.io/badge/License--lightgrey.svg)](https://opensource.org/licenses/)
-  This application is not currently under any license agreement.
+  [![License: ISC](https://img.shields.io/badge/License-ISC-green.svg)](https://opensource.org/licenses/ISC)
+  This application is distributed under the [ISC](https://opensource.org/licenses/ISC) license.
   ## Table of Contents
   - [License](#License)
   - [Usage](#Usage)
@@ -12,20 +12,15 @@
   - [Testing](#Testing)
   - [Contributing](#Contributing)
   ## Usage
-  - open the project in vscode or another compatible editor
-  - right click on 'index.js' and select 'open in integrated terminal'
-  - in the command line type in 'node index.js' - answer all of the prompts 
-  - once all prompts have been answered, the generated README should show up in the 'dist' folder
+  all of them
   ## Installation
-  - open gitbash
-  - navigate to the desired parent folder 
-  - type into gitbash 'git clone https://github.com/IMadeThisJustToPostThis/MSUBC_Module9_CH-Readme-Generator.git'
+  install it good
   ## Testing
-  no tests, simply bug tested manually
+  none
   ## Contributing
-  contibute however you want i don't care
+  no guidelines
   ## Questions
-  Github:<https://github.com/IMadeThisJustToPostThis>
+  Github:<https://github.com/guy>
   
-  Email: zielinm2@mail.lcc.edu
+  Email: guy@gmail.com
   
