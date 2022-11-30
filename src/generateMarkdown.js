@@ -50,7 +50,7 @@ function generateMarkdown(readmeInput) {
   ${readmeInput.usage}
   ## Installation
   ${readmeInput.installation}
-  ## Tests
+  ## Testing
   ${readmeInput.tests}
   ## Contributing
   ${readmeInput.contributing}

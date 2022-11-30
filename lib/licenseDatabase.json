@@ -31,7 +31,7 @@
             "endpoint": "",
             "badgeColor": "lightgrey",
             "default": true,
-            "info": "This application is not currently under any license agreement."
+            "info": "  This application is not currently under any license agreement."
         }
     ]
 }

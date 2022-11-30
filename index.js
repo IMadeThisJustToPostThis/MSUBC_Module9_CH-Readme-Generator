@@ -17,9 +17,10 @@ const questions = [
         message: 'Please enter the description of your project: '
     },
     {
-        type: 'input',
-        name: 'installation',
-        message: 'Please enter the installation instructions for your software: '
+        type: 'list',
+        name: 'license',
+        message: 'Please select from one of the following licenses: ',
+        choices: licenseData
     },
     {
         type: 'input',
@@ -28,13 +29,18 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributing',
-        message: 'Please enter the projects guidelines for contribution: '
+        name: 'installation',
+        message: 'Please enter the installation instructions for your software: '
     },
     {
         type: 'input',
         name: 'tests',
         message: 'Please enter any test results: '
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'Please enter the projects guidelines for contribution: '
     },
     {
         type: 'input',
@@ -45,13 +51,7 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'Please Enter your email: '
-    },
-    {
-        type: 'list',
-        name: 'license',
-        message: 'Please select from one of the following licenses: ',
-        choices: licenseData,
-    },
+    }
 ];
 
 // function that writes our file after the data has been generated
