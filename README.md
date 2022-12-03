@@ -1,4 +1,5 @@
   # MSUBC_Module9_CH Readme Generator by Mateusz Zielinski
+  Module Topic: NodeJS
   ## Description
   This program generates a standardized README.md file based on user-inputted data
   
